@@ -39,7 +39,7 @@ public class MainActivityTrucking extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.act_main);
+        setContentView(R.layout.activity_main);
 
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.READ_CONTACTS)
                 == PackageManager.PERMISSION_GRANTED) {
